@@ -1,3 +1,5 @@
 itchat-uos==1.5.0.dev0
 openai
 wechaty
+quart>=0.19.7 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
